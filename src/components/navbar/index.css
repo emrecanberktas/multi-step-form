@@ -1,0 +1,47 @@
+.Navbar {
+  background-image: url(/src/assets/images/bg-sidebar-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 660px;
+  width: 330px;
+  display: flex;
+  margin: 0px 22px 22px 22px;
+  position: relative;
+  top: 22px;
+}
+.Navbar-Steps {
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+  margin: 40px 30px;
+  font-family: var(--font-family);
+}
+
+.Navbar-Step {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 22px;
+}
+
+.Navbar-Button {
+  background-color: transparent;
+  border: #ffffff 1px solid;
+  color: #ffffff;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  margin-right: 22px;
+  font-family: var(--font-family);
+  font-weight: 700;
+}
+.Navbar-Step-Info {
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.Navbar-Step-Numbers {
+  font-weight: 400;
+  color: var(--Pastel-blue);
+  text-transform: uppercase;
+}
