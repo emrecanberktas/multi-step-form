@@ -1,0 +1,19 @@
+.Personal-Info {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  margin: 40px 30px;
+  font-family: var(--font-family);
+}
+
+.Personal-Info-Title {
+  font-weight: 900;
+  font-size: 3.5rem;
+  color: var(--Marine-blue);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
+}
