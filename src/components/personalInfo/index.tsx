@@ -10,15 +10,29 @@ function PersonalInfo() {
       </div>
       <form>
         <label htmlFor="name">Name</label>
-        <input type="text" id="Name" placeholder="e.g. Nicola Tesla" />
+        <input
+          className="Personal-Info-Input"
+          type="text"
+          id="Name"
+          placeholder="e.g. Nicola Tesla"
+          required
+        />
         <label htmlFor="email">Email Address</label>
         <input
+          className="Personal-Info-Input"
           type="email"
           id="Email"
           placeholder="e.g. Nicolatesla@scienceb*tch.com"
+          required
         />
         <label htmlFor="phone-number">Phone Number</label>
-        <input type="tel" id="Tel" placeholder="e.g. 123-456-7890" />
+        <input
+          className="Personal-Info-Input"
+          type="tel"
+          id="Tel"
+          placeholder="e.g. 123-456-7890"
+          required
+        />
       </form>
     </div>
   );
