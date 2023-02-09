@@ -4,16 +4,42 @@
   flex-direction: column;
   margin: 40px 30px;
   font-family: var(--font-family);
+  color: var(--Marine-blue);
 }
 
 .Personal-Info-Title {
   font-weight: 900;
   font-size: 3.5rem;
   color: var(--Marine-blue);
+  margin: 0;
 }
 
 form {
   display: flex;
   flex-direction: column;
   margin: 20px 0;
+}
+
+label {
+  margin-top: 10px;
+  color: var(--Marine-blue);
+  font-weight: 700;
+}
+
+.Personal-Info-Input {
+  width: 100%;
+  height: 40px;
+  padding: 0 10px;
+  border: 1px solid var(--Light-gray);
+  border-radius: 5px;
+  font-size: 1.2rem;
+  font-family: var(--font-family);
+  font-weight: 800;
+  color: var(--Marine-blue);
+}
+
+.Personal-Info-Input:focus {
+  outline: none !important;
+  border: 1px solid var(--Purplish-blue);
+  background-color: transparent;
 }
