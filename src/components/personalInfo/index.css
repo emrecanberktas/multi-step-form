@@ -20,12 +20,6 @@ form {
   margin: 20px 0;
 }
 
-label {
-  margin-top: 10px;
-  color: var(--Marine-blue);
-  font-weight: 700;
-}
-
 .Personal-Info-Input {
   width: 100%;
   height: 40px;
