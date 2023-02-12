@@ -55,6 +55,10 @@ function PickAddons() {
           </div>
         </div>
       </form>
+      <div className="Footer-Buttons">
+        <button className="Go-Back-Button">Go Back</button>
+        <button className="Next-Step-Button">Next Step</button>
+      </div>
     </div>
   );
 }
