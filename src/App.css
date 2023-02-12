@@ -24,3 +24,45 @@ p {
   margin: 0;
   font-size: 16px;
 }
+
+.Footer-Buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+
+.Go-Back-Button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: var(--font-family);
+  font-weight: 500;
+  color: var(--Cool-gray);
+  cursor: pointer;
+  height: 50px;
+  width: 75px;
+  background-color: transparent;
+  border: none;
+}
+
+.Go-Back-Button:hover {
+  color: var(--Marine-blue);
+  font-weight: 700;
+}
+
+.Next-Step-Button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-family);
+  font-weight: 700;
+  color: var(--White);
+  background-color: var(--Marine-blue) !important;
+  cursor: pointer;
+  height: 40px;
+  width: 100px;
+  background-color: transparent;
+  border: none;
+  border-radius: 7px;
+}

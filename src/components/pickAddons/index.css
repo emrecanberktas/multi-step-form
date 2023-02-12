@@ -33,10 +33,10 @@ form {
   flex-direction: row;
   align-items: center;
   margin: 10px 0;
-  width: 550px;
-  height: 100px;
-  border: 1px solid red;
-  border-radius: 20px;
+  width: 500px;
+  height: 80px;
+  border: 1px solid var(--Marine-blue);
+  border-radius: 10px;
 }
 
 .Pick-Addons-Labels {
