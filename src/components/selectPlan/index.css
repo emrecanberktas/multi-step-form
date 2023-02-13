@@ -1,0 +1,67 @@
+.Select-Plan {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  margin: 40px 30px;
+  color: var(--Marine-blue);
+}
+
+.Select-Plan-Title {
+  font-weight: 900;
+  font-size: 2.5rem;
+  color: var(--Marine-blue);
+  margin: 0;
+}
+
+.Select-Plan-Subtitle {
+  font-weight: 700;
+  color: var(--Cool-gray);
+  margin-bottom: 50px;
+}
+
+.Select-Plan-Options {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.Select-Plan-Option-Image {
+  margin: 20px 15px;
+}
+
+.Select-Plan-Option-Desc {
+  margin: 20px 15px;
+}
+
+.Select-Plan-Option {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 150px;
+  height: 180px;
+  border: 1px solid var(--Light-gray);
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.Select-Plan-Option:hover {
+  border: 1px solid var(--Pastel-blue);
+}
+
+.Select-Plan-Option-Title {
+  font-weight: 900;
+  font-size: 1.5rem;
+  color: var(--Marine-blue);
+  margin: 0;
+}
+
+.Select-Plan-Option-Switch {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--Magnolia);
+  margin-top: 30px;
+  border-radius: 10px;
+}
