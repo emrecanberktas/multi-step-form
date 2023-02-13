@@ -19,6 +19,7 @@
   border-radius: 25px;
   display: flex;
   flex-direction: row;
+  font-family: var(--font-family);
 }
 p {
   margin: 0;
@@ -36,8 +37,8 @@ p {
   display: flex;
   flex-direction: row;
   align-items: center;
-  font-family: var(--font-family);
-  font-weight: 500;
+  font-weight: 700;
+  font-size: 1.2rem;
   color: var(--Cool-gray);
   cursor: pointer;
   height: 50px;
@@ -55,7 +56,6 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: var(--font-family);
   font-weight: 700;
   color: var(--White);
   background-color: var(--Marine-blue) !important;

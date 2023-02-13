@@ -3,7 +3,6 @@
   position: relative;
   flex-direction: column;
   margin: 40px 30px;
-  font-family: var(--font-family);
   color: var(--Marine-blue);
 }
 
@@ -27,7 +26,6 @@ form {
   border: 1px solid var(--Light-gray);
   border-radius: 5px;
   font-size: 1.2rem;
-  font-family: var(--font-family);
   font-weight: 800;
   color: var(--Marine-blue);
 }

@@ -3,7 +3,6 @@
   position: relative;
   flex-direction: column;
   margin: 40px 30px;
-  font-family: var(--font-family);
   color: var(--Marine-blue);
 }
 .Pick-Addons-Title {
