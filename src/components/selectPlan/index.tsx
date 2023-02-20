@@ -1,10 +1,17 @@
 import React from "react";
 import "./index.css";
 import Switch from "@mui/material/Switch";
+import { useSelector, useDispatch } from "react-redux";
+import { increment, decrement } from "../../../counterSlice";
 
 const label = { inputProps: { "aria-label": "Switch demo" } };
 
 function SelectPlan() {
+  const page = useSelector((state: any) => state.counter.page);
+  const subscriptionMethod = useSelector(
+    (state: any) => state.counter.subscriptionMethod
+  );
+  const dispatch = useDispatch();
   return (
     <div className="Select-Plan">
       <div className="Select-Plan-Description">
@@ -88,8 +95,18 @@ function SelectPlan() {
         <Switch {...label} />
       </div>
       <div className="Footer-Buttons">
-        <button className="Go-Back-Button">Go Back</button>
-        <button className="Next-Step-Button">Next Step</button>
+        <button
+          className="Go-Back-Button"
+          onClick={() => dispatch(decrement())}
+        >
+          Go Back
+        </button>
+        <button
+          className="Next-Step-Button"
+          onClick={() => dispatch(increment())}
+        >
+          Next Step
+        </button>
       </div>
     </div>
   );

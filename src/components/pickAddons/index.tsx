@@ -1,7 +1,10 @@
-import React from "react";
 import "./index.css";
+import { useSelector, useDispatch } from "react-redux";
+import { increment, decrement } from "../../../counterSlice";
 
 function PickAddons() {
+  const page = useSelector((state: any) => state.counter.page);
+  const dispatch = useDispatch();
   return (
     <div className="Pick-Addons">
       <div className="Pick-Addons-Description">
@@ -56,8 +59,18 @@ function PickAddons() {
         </div>
       </form>
       <div className="Footer-Buttons">
-        <button className="Go-Back-Button">Go Back</button>
-        <button className="Next-Step-Button">Next Step</button>
+        <button
+          className="Go-Back-Button"
+          onClick={() => dispatch(decrement())}
+        >
+          Go Back
+        </button>
+        <button
+          className="Next-Step-Button"
+          onClick={() => dispatch(increment())}
+        >
+          Next Step
+        </button>
       </div>
     </div>
   );
