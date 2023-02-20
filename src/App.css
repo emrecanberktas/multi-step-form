@@ -10,6 +10,7 @@
   --Magnolia: hsl(217, 100%, 97%);
   --Alabaster: hsl(231, 100%, 99%);
   --White: hsl(0, 0%, 100%);
+  --Font-size: 16px;
 }
 .App {
   height: 65vh;
@@ -23,7 +24,7 @@
 }
 p {
   margin: 0;
-  font-size: 16px;
+  font-size: var(--Font-size);
 }
 
 .Footer-Buttons {
@@ -38,7 +39,7 @@ p {
   flex-direction: row;
   align-items: center;
   font-weight: 700;
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: var(--Cool-gray);
   cursor: pointer;
   height: 50px;
